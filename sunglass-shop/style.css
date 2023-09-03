@@ -1,0 +1,391 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,
+body{
+    width: 100%;
+    height: 100%;
+}
+
+header{
+width: 100%;
+height: 44vmax;
+background-color: rgba(0, 0, 0, 0.5);
+position: relative;
+overflow: hidden;
+display: flex;
+flex-direction: column;
+justify-content: center;
+color: white;
+align-items: center;
+}
+
+header img{
+width: 98.7vmax;
+height: 44vmax;
+position: absolute;
+top: 0;
+left: 0;
+z-index: -1;
+}
+
+.first{
+    padding: 1vmax ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1vmax;
+}
+
+.second{
+    font-size: 5vmax;
+    font-weight: 900;
+    letter-spacing: 1vmax;
+    /* word-spacing: 1.2vmax; */
+}
+
+.third{
+    font-size: 0.9vmax;
+word-spacing: 2vmax;
+padding: 1vmax;
+}
+
+.fourth{
+    font-size: 1vmax;
+display: flex;
+justify-content: center;
+align-items: center;
+padding: 2vmax 1vmax 1vmax 0.5vmax;
+word-spacing: 2vmax;
+}
+
+
+.fifth{
+    font-size: 1vmax;
+padding: 1vmax;
+font-weight: 700;
+}
+
+nav{
+    width: 100%;
+    height: 10vh;
+    font-size: 1.1vmax;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+nav ul{
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    padding: 1vmax 1.5vmax;
+    color: grey;
+    cursor: pointer;
+    transition: 0.25s0;
+}
+nav ul li:hover{
+    color: black;
+}
+
+nav span{
+    border: 2px solid black;
+    
+}
+
+.main{
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+.left{
+    width: 60%;
+    height: 100%;
+        padding: 10vmax;
+
+
+}
+
+.right{
+    width: 40%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.right img{
+    height: 100%;
+    width: 100%;
+}
+
+.left h1{
+       font-weight: 900; 
+}
+
+.btn{
+    display: flex;
+    /* padding: 0 10vmax 0 0; */
+
+
+}
+
+.btn1{
+    margin-right: 3vmax;
+    padding: 1vmax 2vmax;
+border-radius: 2vmax;
+color: white;
+background-color:#26617D ;
+font-weight: 500;
+cursor: pointer;
+transition: 0.25s;
+}
+
+/* .btn1:hover{
+    background-color: green;
+} */
+
+.btn2{
+    padding: 1vmax 2vmax;
+    border-radius: 2vmax;
+    color: white;
+    background-color:#000 ;
+    font-weight: 500;
+    cursor: pointer;
+transition: 0.25s;
+}
+/* .btn2:hover{
+    background-color: green;
+} */
+
+
+
+.prj{
+    padding: 3vmax 0 0 14vmax;
+}
+
+.prj button{
+    padding: 1vmax 2vmax;
+    border: 1px solid grey;
+    font-size: 1vmax;
+    border-radius: 2vmax;
+    margin-top: 2vmax;
+    color: white;
+    background-color: black;
+    cursor: pointer;
+    transition: 0.25s;
+    margin-bottom: 2vmax;
+    margin-left: 41%;
+}
+
+/* .prj button:hover{
+    background-color: rgb(163, 59, 59);
+} */
+
+
+
+.card1 > img{
+    width: 85%;
+    height: 95% ;
+}
+
+.card1 > h3{
+    margin-left:16%;
+
+}
+
+.card2 > img{
+    width: 85%;
+    height: 95% ;
+}
+
+.card2 > h3{
+    margin-left: 16%;
+
+}
+
+.card3 > img{
+    width: 85%;
+    height: 95% ;
+}
+
+.card3 > h3{
+    margin-left:16%;
+
+}
+
+.line1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card4 > img{
+    width: 85%;
+    height: 95% ;
+}
+
+.card4 > h3{
+    margin-left:16%;
+
+}
+
+.card5 > img{
+    width: 85%;
+    height: 95% ;
+}
+
+.card5 > h3{
+    margin-left:16%;
+
+}
+.card6 > img{
+    width: 85%;
+    height: 95% ;
+}
+
+.line2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card6 > h3{
+    margin-left:16%;
+
+}
+
+.card7 > img{
+    width: 85%;
+    height: 95% ;
+}
+
+.card7 > h3{
+    margin-left:16%;
+
+}
+
+.card8 > img{
+    width: 85%;
+    height: 95% ;
+}
+
+.card8 > h3{
+    margin-left:16%;
+
+}
+
+.card9 > img{
+    width: 85%;
+    height: 95% ;
+}
+
+.card9 > h3{
+    margin-left:16%;
+
+}
+
+.line3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.bottom{
+    width: 100%;
+    height: 100%;
+    /* background-color: #000; */
+}
+
+
+.main3{
+    background-color: black;
+    width: 100%;
+    height: 120%;
+    color: white;
+    display: flex;
+
+}
+
+.left3{
+    width: 60%;
+    margin: 5vmax;
+}
+.left3 ul{
+    list-style: none;
+margin-top: 2vmax;
+display: block;
+}
+
+.left3 ul li{
+    /* margin-bottom: 1vmax; */
+    color: white;
+    transition: 0.25s;
+}
+
+.left3 ul li:hover{
+    color: red;
+}
+
+.rightc{
+    width: 20%;
+    margin: 10.5vmax;
+
+}
+
+.rightc ul{
+    list-style: none;
+    display: block;
+}
+.rightc ul li{
+/* margin-bottom: 1.5vmax; */
+color: white;
+transition: 0.25s;
+}
+
+.rightc ul li:hover{
+    color: red;
+}
+
+
+
+.right3{
+    width: 20%;
+    margin: 9.5vmax;
+}
+
+.right3 ul{
+    list-style: none;
+    display: block;
+}
+.right3 ul li{
+/* margin-bottom: 1.5vmax; */
+color: white;
+transition: 0.25s;
+}
+
+.right3 ul li:hover{
+    color: red;
+}
+
+/* .btm{
+    display: flex;
+}
+
+.btm li{
+    list-style: none;
+    margin: 2vmax;
+    margin-top: 15vmax;
+} */
+
+.lst{
+    margin-top: 9.4vmax;
+    margin-left: 1vmax;
+    /* width: 50px; */
+}
+
+.left3 h2{
+    color: white;
+}
